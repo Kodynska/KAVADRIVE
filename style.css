@@ -1,0 +1,298 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {   text-decoration: none;}
+
+    .main
+    { 
+       
+        width: 100%;
+        background-color: darkgray;
+    }
+    .line
+    {
+        background-image: url(../img/line.gif)  ;
+        width: 768px;
+        height: 1372px;
+         margin: 0 auto;
+    }
+.menu{
+    height: 159px;
+}
+    .logo
+    {
+        
+    width: 255px;
+    height: 75px;
+    margin: -50px auto;
+     
+    }
+.imgtime
+{
+     width: 25px;
+    height: 35px;
+    margin: 0 40px;
+    
+}
+  .text{
+     font-family: 'Cuprum', sans-serif;
+      color: rgb(255,102, 0);
+      font-size: 36px;
+     margin: -34px 78px;
+    font-weight:500;
+       }
+.text1{
+     font-family: 'Cuprum', sans-serif;
+      color: rgb(102,102, 102);
+      font-size: 18px;
+     margin: 43px 0 0 82px;
+    font-weight:600;
+       }
+.times{
+   width:164px;
+    height: 78px;
+     margin: 13px 0 0 74px;
+    background-color:  rgb(255,228, 210);
+    border-radius:30px 0;
+}
+#clock
+{   width:164px;
+    height: 78px;
+    font-family: 'Cuprum', sans-serif;
+      color: rgb(255,102, 0);
+      font-size: 60px;
+      text-align: center;
+      position: relative;
+      top: 12px;
+}
+.date{
+   width:325px;
+    height: 78px;
+     margin: -78px 0 0 257px;
+    background-color:  rgb(255,228, 210);
+    border-radius:30px 0;
+}
+#date
+{   width:164px;
+    height: 78px;
+    font-family: 'Cuprum', sans-serif;
+      color: rgb(255,102, 0);
+      font-size: 40px;
+      position: relative;
+      top: 15px;
+    left: 50px;
+}
+    .time
+    {
+       height: 75px; 
+        
+    }
+   .cup
+{
+    margin: 157px 0 0 30px; 
+}
+.text2
+{
+    font-family: 'Cuprum', sans-serif;
+      color: rgb(0,102, 0);
+      font-size: 36px;
+      margin: -34px 0 0 80px
+}
+
+.text3
+{
+    font-family: 'Cuprum', sans-serif;
+      color: rgb(153,153,153);
+    font-weight: 600;
+      font-size: 14px;
+      margin: 0px 0px 50px 335px;
+    right: 
+}
+.choise
+{
+    height: 700px;
+    width: 768px;
+    font-size:33px;
+     overflow-y: scroll; 
+}
+.nicescroll-rails
+{
+    height: 78px;
+}
+.choise1
+{
+    width: 635px; 
+    height: 158px;
+    border: solid rgb(220,231,208) 3px;
+    border-radius: 30px 0  30px 0;
+    margin: 10px 0 0 15px;
+}
+.name1{
+    width: 445px; 
+    margin: 20px 0px 0px 31px;
+    font-family: 'Cuprum', sans-serif;
+    color:black;
+    font-size:30px;
+     font-weight: 400;
+     
+}
+.posts
+{     
+     font-family: 'Cuprum', sans-serif;
+      color:rgb(102,102, 102);
+      font-size:24px;
+      font-weight: 400;
+}
+.line1{
+     width: 180px; 
+    height: 120px;
+    float:right;
+     border-left: 1px solid  rgb(220,231,208); /* Параметры линии */ 
+     margin: -122px 0px 0px 0px;
+}
+
+.hand1 {
+     font-family: 'Cuprum', sans-serif;
+      color:rgb(102,153,51);
+      font-size:30px;  
+        margin: 45px 0px 0px 18px;
+}
+
+.text4
+{
+  font-family: 'Cuprum', sans-serif;
+      color:rgb(102,153,51);
+      font-size:30px;  
+      margin: -40px 0px 0px 60px;
+    
+}
+.map
+{
+   
+   
+}
+.point
+{   
+     width: 220px;
+   padding: 68px 0px 0px 75px;
+    font-family: 'Cuprum', sans-serif;
+      color:rgb(102,153,51);
+      font-size:36px;  
+    
+}
+.point a{ color:rgb(102,153,51);
+}
+.text5
+{   
+     margin: 10px 0px 0px 10px;
+    
+}
+.text6
+{  
+     margin: 10px 0px 0px 37px;   
+}
+.attention
+{
+  width: 318px; 
+    height: 74px;
+    border: solid rgb(238,196,196) 3px;
+    border-radius: 30px 0  30px 0;
+    position: relative; 
+    top: -75px;
+    left: 300px;
+}
+.text7
+{
+   font-family: 'Cuprum', sans-serif;
+      color:rgb(183,0,0);
+      font-size:18px;  
+       font-weight:bold;
+      margin: 17px 0px 0px 67px;
+}
+.img2
+{
+   margin: -35px 0px 0px 15px;
+}
+.footer
+{   width: 768px;
+    height: 145px;
+    background-color: rgb(51,51,51);
+    margin: 0 auto;
+}
+.tel{
+     width: 315px;
+    height: 75px;
+     padding:28px 0px 0px 40px;
+    background-color:  rgb(51,51,51);
+    float: left;
+}
+.text8
+{
+    font-family: 'Cuprum', sans-serif;
+      color:rgb(204,204,204);
+      font-size:24px;  
+       font-weight:bold;
+      margin: -30px 0px 0px 70px;
+}
+.telephone
+{
+     font-family: 'Cuprum', sans-serif;
+      color:rgb(204,204,204);
+      font-size:30px;  
+       font-weight:bold;
+}
+.info
+{
+     width: 410px;
+    height: 75px;
+    float: right;
+}
+.mail
+{
+    margin-top: 28px;
+}
