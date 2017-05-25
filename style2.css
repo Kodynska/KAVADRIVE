@@ -1,0 +1,412 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {   text-decoration: none;}
+
+    .main
+    { 
+       
+        width: 100%;
+        background-color: darkgray;
+    }
+    .line
+    {
+        background-image: url(img/line.gif)  ;
+        width: 768px;
+       
+         margin: 0 auto;
+    }
+.menu{
+    height: 159px;
+}
+.sqaure
+{
+    float: left;
+}
+    .logo
+    {
+        
+    width: 255px;
+    height: 75px;
+    float: right;
+     margin:25px 250px 0 0;
+    }
+.watch
+{
+    
+}
+.imgtime
+{
+     width: 25px;
+    height: 35px;
+    margin: 0 40px;
+    
+}
+  .texttime{
+     font-family: 'Cuprum', sans-serif;
+      color: rgb(255,102, 0);
+      font-size: 36px;
+     margin: -34px 78px;
+    font-weight:500;
+       }
+.textnow{
+     font-family: 'Cuprum', sans-serif;
+      color: rgb(102,102, 102);
+      font-size: 18px;
+    font-weight: bold;
+     margin: 43px 0 0 82px;
+}
+.time{
+   width:740px;
+    height: 968px;
+     margin: 13px 0 0 13px;
+     border: solid rgb(255,228, 210) 3px; 
+    border-radius:30px 0;
+}
+.text {
+    font-family: 'Cuprum', sans-serif;
+    color: rgb(255, 102, 0);
+    font-size: 36px;
+    margin: -34px 78px;
+    font-weight: 500;
+}
+
+.text1 {
+    font-family: 'Cuprum', sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    margin: 43px 0 0 82px;
+    font-weight: 600;
+}
+.conteiner
+{
+ 
+     height: 60px;
+}
+.times {
+    width: 175px;
+    height: 56px;
+   margin: 2px 0 0 55px;
+    background-color: rgb(255, 228, 210);
+    border-radius: 30px 0;
+    float: left;
+}
+.clocks {
+   
+    font-family: 'Cuprum', sans-serif;
+    color: rgb(255, 102, 0);
+    font-size: 18px;
+    float: left;
+    margin: 30px 0 0 35px;
+    
+}
+.span1
+{
+     font-family: 'Cuprum', sans-serif;
+    color: rgb(255, 102, 0);
+    font-size: 30px;
+    float: left;
+     margin: 20px 0 0 10px;
+}
+.date {
+    width: 196px;
+    height: 57px;
+     margin: 2px 0 0 25px;
+    background-color: rgb(255, 228, 210);
+    border-radius: 30px 0;
+    float: left;
+}
+
+.dates {
+    font-family: 'Cuprum', sans-serif;
+    color: rgb(255, 102, 0);
+    font-size: 30px;
+    float: left;
+     margin: 20px 0 0 40px;
+}
+.span2
+{
+  font-family: 'Cuprum', sans-serif;
+    color: rgb(255, 102, 0);
+    font-size: 18px;
+    float: left;
+     margin: 30px 0 0 10px;
+   
+}  
+
+.clock
+{   width:164px;
+    font-family: 'Cuprum', sans-serif;
+      color: rgb(255,102, 0);
+      font-size: 60px;
+     margin: 20px 0 0 35px;
+}
+.month
+{
+    height: 260px;
+}
+.year
+{
+   
+    height:82px;
+}
+.left
+{
+margin: 50px 0 0 170px;
+float: left;
+}
+.text2017
+{
+    font-family: 'Cuprum', sans-serif;
+      color: rgb(120,120, 120);
+      font-size: 40px;
+    margin: 40px 0 0 135px;
+    float: left;
+}
+.right
+{
+   margin: 50px 0 0 135px;
+float: left; 
+}
+.left1
+{
+margin: 80px 0 0 60px;
+float: left;
+}
+.textmonth
+{
+    font-family: 'Cuprum', sans-serif;
+      color: rgb(255, 102, 0);
+      font-size: 72px;
+    margin: 60px 0 0 150px;
+    float: left;
+}
+.right1
+{
+   margin: 80px 0 0 150px;
+float: left; 
+}
+.week
+{
+    height: 30px;
+    width: 710px;
+    margin: 50px 0 0 15px;
+}
+
+.weekdays
+{
+    float: left;
+     font-family: 'Cuprum', sans-serif;
+      color:  rgb(120,120, 120);
+      font-size: 30px;
+     margin: 0 0 0 60px;
+  
+}
+.red
+{
+    color:rgb(183,0,0);
+   
+}
+.weekdays3
+{
+    float: left;
+     font-family: 'Cuprum', sans-serif;
+      color:  rgb(255, 102, 0);
+      font-size: 30px;
+     margin: 0 0 0 65px;
+}
+.weekdays2
+{
+    float: left;
+     font-family: 'Cuprum', sans-serif;
+      color:  rgb(255, 102, 0);
+      font-size: 30px;
+     margin: 0 0 0 67px;
+}
+.weekdays1
+{
+    float: left;
+     font-family: 'Cuprum', sans-serif;
+      color:  rgb(255, 102, 0);
+      font-size: 30px;
+     margin: 0 0 0 75px;
+}
+.weekdays0
+{
+    float: left;
+     font-family: 'Cuprum', sans-serif;
+      color:  rgb(255, 102, 0);
+      font-size: 30px;
+     margin: 0 0 0 73px;
+}
+.grey
+{
+    color: rgb(204,204,204);
+}
+.line1
+{
+  width:610px;
+  border: 1px solid rgb(255,228, 210);
+  margin: 40px 0px 0px 64px;
+}
+.lines2
+{
+  width:40px;
+  border: 1px solid rgb(255,228, 210);
+  margin: 10px 0 0 105px;
+     float: left;
+}
+
+.footer
+{   width: 768px;
+    height: 145px;
+    background-color: rgb(51,51,51);
+    margin: 0 auto;
+}
+.tel{
+     width: 315px;
+     padding:28px 0px 0px 40px;
+    background-color:  rgb(51,51,51);
+    float: left;
+}
+.text8
+{
+    font-family: 'Cuprum', sans-serif;
+      color:rgb(204,204,204);
+      font-size:24px;  
+       font-weight:bold;
+      margin: -30px 0px 0px 70px;
+}
+.telephone
+{
+      font-family: 'Cuprum', sans-serif;
+      color:rgb(204,204,204);
+      font-size:30px;  
+      font-weight:bold;
+}
+.info
+{
+    width: 410px;
+    float: right;
+}
+.mail
+{   float: left;
+    margin-top: 28px;
+}
+.text9
+{
+    font-family: 'Cuprum', sans-serif;
+    color:rgb(204,204,204);
+    font-size:20px;  
+    float:right;
+    margin: 30px 240px 0px 0px;
+}
+
+.line2
+{
+width:740px;
+border-top: 1px solid rgb(102,102, 102);
+  margin: 20px 0px 0px 15px;
+}
+.img {
+   
+    display: inline-block;
+    width: 37px;
+    height: 33px;
+    background-image: url(img/sprite2.gif);
+}
+.img.imgG {
+    background-position: 1 0;
+}
+.img.imgG:hover {
+    background-position: 0 33px;
+}
+
+.img.imgP {
+    background-position: -39px 0;
+}
+.img.imgP:hover {
+    background-position: -39px 33px;
+}
+.img.imgF {
+    background-position: -78px 0;
+}
+.img.imgF:hover {
+     background-position: -78px 33px;
+}
+.img.imgB {
+    background-position: -116px 0;
+}
+.img.imgB:hover {
+    background-position: -116px 33px;
+}
+.img.imgT {
+    background-position: -155px 0;
+}
+.img.imgT:hover {
+    background-position: -155px 33px;
+}
+.sprite
+{
+    margin: 10px 0px 0px 45px;
+    float: left;
+}
+.text10
+{
+     font-family: 'Cuprum', sans-serif;
+      color:rgb(204,204,204);
+      font-size:14px; 
+       font-weight:bold;
+    float: right;
+     margin: 10px 18px 0px 0px;
+}
+.text10 a
+{
+  color:rgb(204,204,204);
+    
+}
